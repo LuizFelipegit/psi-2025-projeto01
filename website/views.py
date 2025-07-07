@@ -2,17 +2,17 @@ from django.shortcuts import render
 
 elenco = {
     'atletas': [
-        {'foto': 'jogador1.jpg', 'nome': 'augustin rossi', 'idade': 29, 'posicao': 'goleiro', 'nascimento': 'argentina'},
-        {'foto': 'jogador2.jpg', 'nome': 'léo ortiz', 'idade': 29, 'posicao': 'zagueiro', 'nascimento': 'brasil'},
-        {'foto': 'jogador3.jpg', 'nome': 'léo pereira', 'idade': 29, 'posicao': 'zagueiro', 'nascimento': 'brasil'},
-        {'foto': 'jogador4.jpg', 'nome': 'alex sandro', 'idade': 34, 'posicao': 'lateral esquerdo', 'nascimento': 'brasil'},
-        {'foto': 'jogador5.jpg', 'nome': 'wesley franca', 'idade': 21, 'posicao': 'lateral direito', 'nascimento': 'brasil'},
-        {'foto': 'jogador6.jpg', 'nome': 'erick pulgan', 'idade': 31, 'posicao': 'volante', 'nascimento': 'chile'},
-        {'foto': 'jogador7.jpg', 'nome': 'jorginho', 'idade': 33, 'posicao': 'volante', 'nascimento': 'itália'},
-        {'foto': 'jogador8.jpg', 'nome': 'de arrascaeta', 'idade': 31, 'posicao': 'meia atacante', 'nascimento': 'uruguai'},
-        {'foto': 'jogador9.jpg', 'nome': 'luiz araújo', 'idade': 29, 'posicao': 'ponta direita', 'nascimento': 'brasil'},
-        {'foto': 'jogador10.jpg', 'nome': 'bruno henrique', 'idade': 34, 'posicao': 'ponta esquerda', 'nascimento': 'brasil'},
-        {'foto': 'jogador11.jpg', 'nome': 'pedro', 'idade': 28, 'posicao': 'centroavante', 'nascimento': 'brasil'}
+        {'foto': 'images/rossi.png', 'nome': 'augustin rossi', 'idade': 29, 'posicao': 'goleiro', 'nascimento': 'argentina'},
+        {'foto': 'images/leo ortiz.jpg', 'nome': 'léo ortiz', 'idade': 29, 'posicao': 'zagueiro', 'nascimento': 'brasil'},
+        {'foto': 'images/leo pereira.jpg', 'nome': 'léo pereira', 'idade': 29, 'posicao': 'zagueiro', 'nascimento': 'brasil'},
+        {'foto': 'images/alex sandro.png', 'nome': 'alex sandro', 'idade': 34, 'posicao': 'lateral esquerdo', 'nascimento': 'brasil'},
+        {'foto': 'images/wesley.png', 'nome': 'wesley frança', 'idade': 21, 'posicao': 'lateral direito', 'nascimento': 'brasil'},
+        {'foto': 'images/erick.png', 'nome': 'erick pulgar', 'idade': 31, 'posicao': 'volante', 'nascimento': 'chile'},
+        {'foto': 'images/jorginho.png', 'nome': 'jorginho', 'idade': 33, 'posicao': 'volante', 'nascimento': 'itália'},
+        {'foto': 'images/arrascaeta.png', 'nome': 'de arrascaeta', 'idade': 31, 'posicao': 'meia atacante', 'nascimento': 'uruguai'},
+        {'foto': 'images/luiz.png', 'nome': 'luiz araújo', 'idade': 29, 'posicao': 'ponta direita', 'nascimento': 'brasil'},
+        {'foto': 'images/bh.png', 'nome': 'bruno henrique', 'idade': 34, 'posicao': 'ponta esquerda', 'nascimento': 'brasil'},
+        {'foto': 'images/pedro.png', 'nome': 'pedro', 'idade': 28, 'posicao': 'centroavante', 'nascimento': 'brasil'}
     ]
 }
 
