@@ -19,7 +19,7 @@ elenco = {
 info_site = {
     'titulo': 'clubes de regatas do flamengo',
     'historia': 'o flamengo foi fundado em 17 de novembro de 1895 para as disputas de remo. A entrada da equipe de futebol só aconteceu em 1912.',
-    'autores': ['luiz felipe', 'carlos eduardo']
+    'autores': ['Luiz Felipe', 'Carlos Eduardo']
 }
 
 def inicio(request):

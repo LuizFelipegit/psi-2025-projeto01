@@ -95,3 +95,6 @@ nav a:hover {
     border: 3px solid #eee; 
 }
 
+.secao-info li {
+    list-style: none;
+}
