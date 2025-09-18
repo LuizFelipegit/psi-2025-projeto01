@@ -1,0 +1,13 @@
+{% extends 'website/base.html' %}
+
+{% block content %}
+    <h2>Blog de Notícias</h2>
+    <hr>
+    {% for post in posts %}
+        <div class="post-summary">
+            <h3><a href="{% url 'post_detail' post.pk %}">{{ post.titulo }}</a></h3>
+            <p>Publicado em: {{ post.data_publicacao|date:"d/m/Y" }}</p>
+        </div>
+        <hr>
+    {% endfor %}
+{% endblock %}

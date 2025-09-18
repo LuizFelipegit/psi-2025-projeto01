@@ -1,0 +1,16 @@
+{% extends 'website/base.html' %}
+
+{% block content %}
+    <h2>{{ post.titulo }}</h2>
+    <p><small>Publicado em: {{ post.data_publicacao|date:"d/m/Y" }}</small></p>
+    
+    {% if post.imagem %}
+        <img src="{{ post.imagem.url }}" alt="{{ post.titulo }}" style="max-width: 100%; height: auto; border-radius: 8px;">
+    {% endif %}
+    
+    <div class="post-content" style="margin-top: 20px;">
+        {{ post.conteudo|linebreaks }}
+    </div>
+    <br>
+    <a href="{% url 'post_list' %}">← Voltar para a lista de posts</a>
+{% endblock %}
